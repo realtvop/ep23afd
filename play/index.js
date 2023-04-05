@@ -212,7 +212,7 @@ function loadSong(isViaNetwork, files = {}) {
 	
 	var tapToStartFrame=document.createElement('div');
 	tapToStartFrame.classList.add('tapToStartFrame');
-	tapToStartFrame.style = "display: none;";
+	// tapToStartFrame.style = "display: none;";
 	tapToStartFrame.innerHTML=`
 	<div class="songName">${chartMetadata.name}</div>
 	请尝试点击屏幕以开始
@@ -221,7 +221,7 @@ function loadSong(isViaNetwork, files = {}) {
 		Illustration designed by ${chartMetadata.chartDesigner} <br />
 		Level designed by ${chartMetadata.illustrator}
 	</div>
-	<div style="display:flex;flex-direction:row;">很抱歉，遇到了亿点小问题，请拨打作者：kevin201609@foxmail.com或B站：飞机上的长电视<div style="color:#6cf;" onclick="alert('我爱初音，初音爱我')">  </div></div>
+	<div style="display:flex;flex-direction:row;">不然没声音<div style="color:#6cf;" onclick="alert('我爱初音，初音爱我')">  </div></div>
 	`
 	tapToStartFrame.addEventListener('click',()=>{
 		var LoadCompleteItems=0;
