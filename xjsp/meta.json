@@ -1,0 +1,19 @@
+{
+	"name":"今年も「雪降り、メリクリ」目指して頑張ります！！",
+	"codename":"xjsp",
+	"artist":"A-39",
+	"musicFile":"music.mp3",
+	"ezRanking":-15,
+	"hdRanking":-15,
+	"inRanking":0,
+	"atRanking":-15,
+	"chartEZ":"Chart_IN.json",
+	"chartHD":"Chart_IN.json",
+	"chartIN":"Chart_IN.json",
+	"chartAT":"Chart_IN.json",
+	"chartLegacy":"Chart_IN.json",
+	"illustration":"Illustration.png",
+	"chartDesigner":"?",
+	"illustrator":"?",
+	"sliceAudioStart":"63.6"
+}
